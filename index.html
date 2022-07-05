@@ -57,29 +57,31 @@
         </section>
         <section>
             <h2>Обратная связь</h2>
-            <table>
-                <tr>
-                    <td><label for="username">ФИО:</label></td>
-                    <td>
-                        <input type="text" name="username" id="username" placeholder="Представьтесь, пожалуйста"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Пол:</td>
-                    <td>
-                            <label><input type="radio" name="sex" value="male"/> Мужской</label>
-                            <label><input type="radio" name="sex" value="female" /> Женский</label> 
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="comment">Доп. текст:</label></td>
-                    <td><textarea name="comment" id="comment" rows="3">Сообщите все, что считаете нужным</textarea></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="username">ФИО:</label></td>
+                        <td>
+                            <input type="text" name="username" id="username" placeholder="Представьтесь, пожалуйста" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Пол:</td>
+                        <td>
+                            <label><input type="radio" name="sex" value="male" /> Мужской</label>
+                            <label><input type="radio" name="sex" value="female" /> Женский</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="comment">Доп. текст:</label></td>
+                        <td><textarea name="comment" id="comment" rows="3">Сообщите все, что считаете нужным</textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" value="Отправить" /></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
         </section>
     </main>
 </body>
