@@ -11,13 +11,17 @@ body {
 	background-color: #6451d5;
 	background-image: url("../img/bg-promo.png");
     background-repeat: no-repeat;
-    background-position: 410px 157px;
+    background-position: right 157px;
 }
 .container {
 	width: 1080px;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
 	padding-bottom: 80px;
+	border: 1px solid black;
 }
 .main-nav{
 	padding-left: 350px;
@@ -64,5 +68,31 @@ body {
 	text-align: center;
 	padding-top: 27px;
 	padding-bottom: 27px;
-	
+}
+.advantages {
+	background-color: #efefef;
+}
+.advantages ul{
+	list-style: none;
+}
+.advantages li {
+	display: inline-block;
+	width: 320px;
+	text-align: center;
+}
+.adventages-icon {
+	width: 80px;
+	height: 70px;
+	background-image: url("../img/sprites.png");
+	background-repeat: no-repeat;
+	margin: auto;
+}
+.advantages-icon-schedule {
+	background-position: 0px 0px;
+}
+.advantages-icon-practice {
+	background-position: -82px 0px;
+}
+.advantages-icon-work {
+	background-position: -165px 0px;	
 }

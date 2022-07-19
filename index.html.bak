@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>A+</title>
-    <link href="../project/css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <header class="main-header">
@@ -20,34 +20,39 @@
 			<div class="promo">
 				<div class="promo-title">Учеба еще никогда не была такой интересной!</div>
 				<p class="promo-text">Обучаем готовых к трудоустройству специалистов на теоретических и практических курсах.</p>
-				<a href="#" class="btn btn-blue">Подать заявку</a>
+				<a href="#" class="btn btn-purple">Подать заявку</a>
 			</div>
 		</div>
     </header>
-    <main>
-        <section>
-            <ul>
-                <li>
-                    <h3>Гибкий график обучения</h3>
-                    <p>Современный темп жизни требует гибкого подхода к расписанию.</p>
-                </li>
-                <li>
-                    <h3>Практические занятия</h3>
-                    <p>На одной теории далеко не уедешь поэтому мы обучаем на практике.</p>
-                </li>
-                <li>
-                    <h3>Не оставим без работы</h3>
-                    <p>Хорошие специалисты всегда в цене и Вы станете именно таким.</p>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>Формы обучения</h2>
-            <table>
-                <tr>
-                    <td>Название</td>
-                    <td>Длительность</td>
-                    <td>Описание</td>
+    <main class="main-content">
+		<section class="advantages">
+			<div class="container">
+				<ul>
+					<li>
+						<div class="adventages-icon advantages-icon-schedule"></div>
+						<h3>Гибкий график обучения</h3>
+						<p>Современный темп жизни требует гибкого подхода к расписанию.</p>
+					</li>
+					<li>
+						<div> class="adventages-icon advantages-icon-practice"></div>
+						<h3>Практические занятия</h3>
+						<p>На одной теории далеко не уедешь поэтому мы обучаем на практике.</p>
+					</li>
+					<li>
+						<div> class="adventages-icon advantages-icon-work"></div>
+						<h3>Не оставим без работы</h3>
+						<p>Хорошие специалисты всегда в цене и Вы станете именно таким.</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<h2>Формы обучения</h2>
+			<table>
+				<tr>
+					<td>Название</td>
+					<td>Длительность</td>
+					<td>Описание</td>
                 </tr>
                 <tr>
                     <td>Дневное обучение</td>
