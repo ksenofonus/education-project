@@ -103,3 +103,9 @@ body {
 .advantages-icon-work {
 	background-position: -165px 0px;	
 }
+.education-forms-table td{
+	border: 2px solid #a7a7a7;
+}
+.education-forms-table {
+	border-collapse: collapse;
+}
