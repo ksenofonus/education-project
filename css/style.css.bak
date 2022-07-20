@@ -20,8 +20,8 @@ body {
 	padding-top: 30px;
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-bottom: 80px;
-	border: 1px solid black;
+	padding-bottom: 30px;
+	/* border: 1px solid black; */
 }
 .main-nav{
 	padding-left: 350px;
@@ -68,6 +68,7 @@ body {
 	text-align: center;
 	padding-top: 27px;
 	padding-bottom: 27px;
+	margin-bottom: 80px;
 }
 .advantages {
 	background-color: #efefef;
@@ -77,8 +78,14 @@ body {
 }
 .advantages li {
 	display: inline-block;
-	width: 320px;
+	width: 280px;
 	text-align: center;
+	margin-right: 30px;
+	padding-left: 20px;
+	padding-right: 20px; 
+}
+.advantages li:last-child{
+	margin-right: 0;
 }
 .adventages-icon {
 	width: 80px;
@@ -91,8 +98,26 @@ body {
 	background-position: 0px 0px;
 }
 .advantages-icon-practice {
-	background-position: -82px 0px;
+	background-position: -76px 0px;
 }
 .advantages-icon-work {
 	background-position: -165px 0px;	
+}
+.education-forms-table td{
+	border: 2px solid #a7a7a7;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	padding-right: 10px;
+}
+.education-forms-table {
+	border-collapse: collapse;
+	width: 100%;
+	
+}
+.column-1 {
+	width: 254px;
+}
+.column-2 {
+	width: 160px;
 }
