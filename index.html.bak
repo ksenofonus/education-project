@@ -48,7 +48,7 @@
 		</section>
 		<section class="education-forms">
 			<div class="container">
-				<h2>Формы обучения</h2>
+				<h2 class="table-title">Формы обучения</h2>
 				<table class="education-forms-table">
 					<tr>
 						<td class="head-row">Название</td>
@@ -68,7 +68,8 @@
 				</table>
 			</div>
         </section>
-        <section>
+        <section class="feedback">
+		<div class="container">
             <h2>Обратная связь</h2>
             <form>
                 <table>
@@ -101,6 +102,7 @@
                 <p>Мы подготовим для вас индивидуальное предложение и выйдем на связь!</p>
                 <p><strong>Внимание!</strong>Все поля обязательны для заполнения.</p>
             </div>
+		</div>
         </section>
     </main>
     <footer>

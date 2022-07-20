@@ -135,9 +135,12 @@ body {
 }
 .column-3 {
 	width: auto;
-	padding-right: 100px;
+	padding-right: 150px;
 }
 .head-row {
 	background-color: #efefef;
 	color: #404040;
+}
+.feedback-title {
+	font-size: 50px;
 }

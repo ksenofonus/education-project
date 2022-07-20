@@ -141,3 +141,8 @@ body {
 	background-color: #efefef;
 	color: #404040;
 }
+.feedback-title {
+	font-size: 50px;
+	margin-left: 30px;
+	margin-bottom: 60px;
+}
