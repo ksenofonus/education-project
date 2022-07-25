@@ -62,12 +62,13 @@ body {
 	background-color: #382d78;
 	text-decoration: none;
 	text-transform: uppercase;
+	padding-top: 27px;
+	padding-bottom: 27px;
+	text-align: center;
+	font-weight: bold;
 }
 .btn-purple {
 	width: 320px;
-	text-align: center;
-	padding-top: 27px;
-	padding-bottom: 27px;
 	margin-bottom: 80px;
 }
 .advantages {
@@ -183,4 +184,8 @@ body {
 	padding-bottom: 15px;
 	margin-bottom: 25px;
 	margin-top: 25px;
+}
+.btn-feedback-submit{
+	width: 540px;
+	font-size: 16px;
 }
