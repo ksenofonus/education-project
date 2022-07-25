@@ -144,8 +144,43 @@ body {
 .feedback-title {
 	font-size: 50px;
 	margin-left: 30px;
-	margin-bottom: 60px;
+	/* margin-bottom: 60px; */
 }
 .feedback {
 	background-color: #efefef;
+}
+.feedback-form{
+	float: left;
+	width: 670px;
+}
+.feedback-insruction{
+	float: right;
+	width: 320px;
+}
+.feedback .container {
+	display: table;
+	clear: both;
+	content: "";
+}
+.feedback-field-name {
+	width: 100px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 10px;
+	
+}
+.feedback-field {
+	width: 560px;
+	
+}
+
+#username,
+#comment {
+	width: 510px;
+	color: #404040;
+	padding-top: 15px;
+	padding-left: 25px;
+	padding-bottom: 15px;
+	margin-bottom: 25px;
+	margin-top: 25px;
 }
