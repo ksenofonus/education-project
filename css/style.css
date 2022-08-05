@@ -44,6 +44,7 @@ body {
 .main-nav a {
 	text-decoration: none;
 	color: #ffffff;
+	font-weight: bold;
 }
 .main-header img {
 	position: absolute;
@@ -51,14 +52,14 @@ body {
 .promo {
 	position: relative;
 	z-index: 10;
-	width: 510px;
+	width: 425px;
 	margin-top: 100px;
 	margin-bottom: 60px;
 	border: 1px solid black; 
 }
 .promo-title{
 	color: #ffffff;
-	font-size: 50px;
+	font-size: 46px;
 	line-height: 50px;
 	margin-bottom: 30px;
 }
