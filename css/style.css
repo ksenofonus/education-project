@@ -64,9 +64,11 @@ body {
 	margin-bottom: 30px;
 }
 .promo-text {
-	width: 320px;
+	/* width: 320px; */
 	color: #bcb3f2;
-	margin-bottom: 30px; 
+	line-height: 30px;
+	font-size: 22px;
+	margin-bottom: 50px; 
 }
 .promo:after{
 	content: "";
