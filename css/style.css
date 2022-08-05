@@ -9,9 +9,6 @@ body {
 }
 .main-header {
 	background-color: #6451d5;
-	background-image: url("../img/bg-promo.png");
-    background-repeat: no-repeat;
-    background-position: 620px 157px;
 }
 .container {
 	width: 1020px;
@@ -52,6 +49,8 @@ body {
 	position: absolute;
 }
 .promo {
+	position: relative;
+	z-index: 10;
 	width: 510px;
 	margin-top: 100px;
 	margin-bottom: 60px;
@@ -67,6 +66,17 @@ body {
 	width: 320px;
 	color: #bcb3f2;
 	margin-bottom: 30px; 
+}
+.promo:after{
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: -25px;
+	left: 380px;
+	width: 653px;
+	height: 451px;
+	background-image: url("../img/bg-promo.png");
+    background-repeat: no-repeat;
 }
 .btn {
 	display: block;
