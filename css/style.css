@@ -97,22 +97,19 @@ body {
 .advantages {
 	background-color: #efefef;
 }
-.advantages ul{
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-.advantages li {
-	display: inline-block;
-	margin: 0;
-	padding: 0;
-	width: 285px;
+
+.adventages-item{
+	float: left;
+	width: 280px;
+	margin-right: 80px;
 	text-align: center;
-	margin-right: 70px;
-	/* border: 1px solid black;  */
-	 
 }
-.advantages li:last-child{
+.advantages .container {	
+	display: table;
+	clear: both;
+	content: "";
+}
+.adventages-item:last-child{
 	margin-right: 0;
 }
 .adventages-icon {
