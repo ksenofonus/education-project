@@ -1,6 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 18px;
   line-height: 24px;
   color: #000000;
   margin: 0;
@@ -17,12 +17,13 @@ body {
 }
 .main-header {
 	background-color: #6451d5;
-	padding-bottom: 75px;
-	padding-top: 32px;
+	padding-bottom: 80px;
+	padding-top: 35px;
 }
 
 .header-top {
-	min-height: 80px;
+	min-height: 82px;
+	margin-bottom: 93px;
 	/* border: 1px solid black;  */
 	
 }
@@ -31,21 +32,24 @@ body {
 	padding: 0;
 }
 .main-nav{
-	padding-left: 350px;
-	padding-top: 32px;
+	padding-left: 349px;
+	padding-top: 25px;
 }
 .main-nav li {
 	display: inline-block;
-	margin-right: 56px;	
-	
+	margin-right: 50px;		
+}
+.main-nav li:nth-child(3) {
+	margin-right: 48px;
 }
 .main-nav li:last-child{
-	margin-right: 0;
+	margin-right: 0;	
 }
 .main-nav a {
 	text-decoration: none;
 	color: #ffffff;
 	font-weight: bold;
+	font-size: 18px;
 }
 .main-header img {
 	position: absolute;
@@ -53,28 +57,30 @@ body {
 .promo {
 	position: relative;
 	z-index: 10;
-	width: 425px;
-	margin-top: 100px;
+	width: 450px;
+	
 	/* border: 1px solid black;  */
 }
 .promo-title{
 	color: #ffffff;
-	font-size: 46px;
+	font-size: 45px;
 	line-height: 50px;
-	margin-bottom: 30px;
+	font-weight: bolder;
+	margin-bottom: 35px;
 }
 .promo-text {
-	/* width: 320px; */
+	font-family: Tahoma, sans-serif;
+	width: 320px;
 	color: #bcb3f2;
 	line-height: 30px;
-	font-size: 22px;
+	font-size: 18px;
 	margin-bottom: 50px; 
 }
 .promo:after{
 	content: "";
 	position: absolute;
 	z-index: -1;
-	top: -25px;
+	top: -20px;
 	left: 380px;
 	width: 653px;
 	height: 451px;
@@ -87,9 +93,10 @@ body {
 	background-color: #382d78;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding-top: 27px;
-	padding-bottom: 27px;
+	padding-top: 23px;
+	padding-bottom: 23px;
 	text-align: center;
+	font-size: 20px;
 	font-weight: bold;
 }
 .btn-purple {
@@ -99,7 +106,7 @@ body {
 .advantages {
 	background-color: #efefef;
 	padding-top: 50px;
-	padding-bottom: 45px;
+	padding-bottom: 46px;
 }
 
 .adventages-item{
@@ -107,6 +114,20 @@ body {
 	width: 320px;
 	margin-right: 30px;
 	text-align: center;
+	/* min-height: 180px; */
+	
+}
+.adventages-item h2 {
+	font-size: 22px;
+	/* margin-bottom: 27px; */
+	margin-top: 30px;
+	
+}
+.adventages-item p{
+	color: #555555;
+	font-family: Tahoma, sans-serif;
+	font-size: 18px;
+	margin-bottom: 0;
 }
 .advantages .container {	
 	display: table;
@@ -121,34 +142,36 @@ body {
 	height: 70px;
 	background-image: url("../img/sprites.png");
 	background-repeat: no-repeat;
-	margin: auto;
+	margin: 0 auto;
 }
 .advantages-icon-schedule {
-	background-position: 0px 0px;
+	background-position: 5px -2px;
 }
 .advantages-icon-practice {
-	background-position: -76px 0px;
+	background-position: -76px -2px;
 }
 .advantages-icon-work {
-	background-position: -165px 0px;	
+	background-position: -157px -2px;	
 }
 .education-forms{
 	background-color: #ffffff;
-	padding-top: 30px;
+	padding-top: 50px;
 	padding-bottom: 70px;
 }
 .table-title {
-	font-size: 46px;
+	font-size: 45px;
 	line-height: 50px;
 	margin-bottom: 60px;
+	margin-top: 0;
 }
 .education-forms-table td{
 	border: 2px solid #a7a7a7;
-	padding-top: 20px;
-	padding-left: 30px;
-	padding-bottom: 20px;
+	/* padding-top: 18px; */
+	/* padding-left: 30px; */
+	/* padding-bottom: 20px; */
 	line-height: 30px;
 	vertical-align: top;
+	font-size: 18px;
 }
 .education-forms-table {
 	border-collapse: collapse;
@@ -156,55 +179,67 @@ body {
 	
 }
 .column-1 {
-	width: 214px;
+	width: 225px;
 	font-weight: bold;
-	font-size: 21px;
-	padding-right: 30px;
+	font-size: 22px !important;
+	padding: 20px 30px;
 }
 .column-2 {
-	width: 160px;
+	width: 130px;
 	font-weight: bold;
-	font-size: 21px;
-	padding-right: 30px;
+	font-size: 22px !important;
+	padding: 22px 30px;
 }
 .column-3 {
 	width: auto;
-	padding-right: 80px;
+	padding: 20px 30px;
+	font-family: Tahoma, sans-serif;
 }
 .head-row {
 	background-color: #efefef;
+	font-family: Tahoma, sans-serif;
 	color: #404040;
+	padding: 20px 30px;
 }
 .feedback {
 	background-color: #efefef;
-	padding-bottom: 60px;
-	padding-top: 30px;
+	padding-bottom: 52px;
+	padding-top: 50px;
 }
 .feedback-title {
-	font-size: 46px;
+	font-size: 45px;
 	line-height: 50px;
 	margin-top: 0;
-	/* margin-bottom: 60px; */
+	margin-bottom: 60px;
 }
 
 .feedback-form{
 	float: left;
-	width: 670px;
-	min-height: 350px;
+	width: 640px;
+	min-height: 360px;
 	/* margin-bottom: 50px; */
 
 }
 .feedback-instruction {
 	float: right;
-	width: 280px;
-	min-height: 350px;
+	width: 320px;
+	min-height: 340px;
 	/* padding-top: 10px; */
 	/* border: 1px solid black; */
 }
-
+.feedback-instruction h3 {
+	font-size: 20px;
+}
+.feedback-instruction p{
+	color: #555555;
+	font-family: Tahoma, sans-serif;
+	font-size: 18px;
+}
 .feedback-instruction .strong-instruction {
-	margin-top: 50px;
-	margin-bottom: 0;
+	margin-top: 52px;
+}
+.feedback-instruction strong {
+	color: black;
 }
 .feedback .container {
 	display: table;
@@ -219,21 +254,25 @@ body {
 	
 }
 .feedback-field {
-	width: 560px;
+	/* width: auto; */
 }
 
-#username,
-#comment {
+#username {
 	width: 510px;
 	color: #404040;
-	padding-top: 10px;
-	padding-left: 25px;
-	padding-bottom: 10px;
+	padding: 20px 25px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+#comment{
+	width: 510px;
+	color: #404040;
+	padding: 20px 25px 30px 25px;
 	margin-bottom: 25px;
 	margin-top: 25px;
 }
 .btn-feedback-submit{
-	width: 540px;
+	width: 510px;
 	font-size: 16px;
 }
 .main-footer {
