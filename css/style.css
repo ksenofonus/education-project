@@ -39,8 +39,8 @@ body {
 	display: inline-block;
 	margin-right: 50px;		
 }
-.main-nav li:nth-child(3) {
-	margin-right: 48px;
+.main-nav li:nth-child(2) {
+	margin-right: 49px;
 }
 .main-nav li:last-child{
 	margin-right: 0;	
@@ -106,7 +106,7 @@ body {
 .advantages {
 	background-color: #efefef;
 	padding-top: 50px;
-	padding-bottom: 46px;
+	padding-bottom: 45px;
 }
 
 .adventages-item{
@@ -120,7 +120,8 @@ body {
 .adventages-item h2 {
 	font-size: 22px;
 	/* margin-bottom: 27px; */
-	margin-top: 30px;
+	margin-top: 20px;
+	margin-bottom: 25px;
 	
 }
 .adventages-item p{
@@ -145,13 +146,13 @@ body {
 	margin: 0 auto;
 }
 .advantages-icon-schedule {
-	background-position: 5px -2px;
+	background-position: 6px -2px;
 }
 .advantages-icon-practice {
-	background-position: -76px -2px;
+	background-position: -79px -2px;
 }
 .advantages-icon-work {
-	background-position: -157px -2px;	
+	background-position: -160px -2px;	
 }
 .education-forms{
 	background-color: #ffffff;
@@ -166,6 +167,7 @@ body {
 }
 .education-forms-table td{
 	border: 2px solid #a7a7a7;
+	color: #404040;
 	/* padding-top: 18px; */
 	/* padding-left: 30px; */
 	/* padding-bottom: 20px; */
@@ -182,13 +184,13 @@ body {
 	width: 225px;
 	font-weight: bold;
 	font-size: 22px !important;
-	padding: 20px 30px;
+	padding: 19px 30px;
 }
 .column-2 {
 	width: 130px;
 	font-weight: bold;
 	font-size: 22px !important;
-	padding: 22px 30px;
+	padding: 19px 30px;
 }
 .column-3 {
 	width: auto;
@@ -203,7 +205,7 @@ body {
 }
 .feedback {
 	background-color: #efefef;
-	padding-bottom: 52px;
+	padding-bottom: 55px;
 	padding-top: 50px;
 }
 .feedback-title {
@@ -216,27 +218,34 @@ body {
 .feedback-form{
 	float: left;
 	width: 640px;
-	min-height: 360px;
+	min-height: 370px;
+	font-family: Tahoma, sans-serif;
 	/* margin-bottom: 50px; */
 
 }
 .feedback-instruction {
 	float: right;
 	width: 320px;
-	min-height: 340px;
+	/* min-height: 300px; */
 	/* padding-top: 10px; */
 	/* border: 1px solid black; */
 }
 .feedback-instruction h3 {
-	font-size: 20px;
+	font-size: 22px;
+	margin: 0;
+	line-height: 30px;
 }
 .feedback-instruction p{
+	margin: 0;
 	color: #555555;
 	font-family: Tahoma, sans-serif;
 	font-size: 18px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+
 }
 .feedback-instruction .strong-instruction {
-	margin-top: 52px;
+	margin-top: 40px;
 }
 .feedback-instruction strong {
 	color: black;
@@ -248,16 +257,32 @@ body {
 }
 .feedback-field-name {
 	width: 100px;
-	font-weight: bold;
+	/* font-weight: bold; */
 	text-align: right;
 	padding-right: 10px;
 	
 }
 .feedback-field {
-	/* width: auto; */
+	min-height: 60px;
 }
-
+input[type="text"],
+textarea,
+input[type="radio"]{
+  font-family: inherit; 
+  font-size: inherit; 
+  line-height: inherit; 
+  margin: 0; 
+  box-sizing: border-box;
+}
+input[type="radio"]{
+	margin-right: 24px;
+	margin-left: 15px;
+}
+.radiobutton {
+	 margin-right: 60px;
+	}
 #username {
+	display: block;
 	width: 510px;
 	color: #404040;
 	padding: 20px 25px;
@@ -265,10 +290,11 @@ body {
 	margin-top: 25px;
 }
 #comment{
+	display: block;
 	width: 510px;
 	color: #404040;
-	padding: 20px 25px 30px 25px;
-	margin-bottom: 25px;
+	padding: 20px 25px 45px 25px;
+	margin-bottom: 30px;
 	margin-top: 25px;
 }
 .btn-feedback-submit{
@@ -277,20 +303,27 @@ body {
 }
 .main-footer {
 	background-color: #2a2546;
-	padding-top: 50px;
-	padding-bottom: 35px;
+	padding-top: 65px;
+	padding-bottom: 80px;
+	font-family: Tahoma, sans-serif;
+}
+.footer-top {
+	/* border: 1px solid white; */
+	min-height: 240px;
 }
 .footer-address {
 	float: left;
-	width: 320px;
+	width: 300px;
 	color: #ffffff;
-	min-height: 220px;
+	margin-right: 40px;
+	/* min-height: 220px; */
 }
 .footer-address p {
-	/* margin-top: 40px; */
+	margin-top: 73px;
+	margin-bottom: 0;
 	/* margin-bottom: 0; */
 }
-.main-footer .container {
+.footer-top .container {
 	display: table;
 	content: "";
 	clear: both;
@@ -298,16 +331,22 @@ body {
 
 .footer-menu-item {
 	 float: left;
-	 margin-left: 10px;
+	 margin-top: 25px;
 	 margin-right: 0;
-	 width: 170px;
-	 min-height: 190px;
+	 width: 180px;
+	 min-height: 150px;
 	 /* border: 1px solid white; */
 }
 .footer-menu-item:last-child{
 	float: right;
-	width: 140px;
+	width: 135px;
 	
+}
+.footer-menu-item h3 {
+	margin: 0;
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 35px;
 }
 .footer-menu-item ul {
 	margin: 0;
@@ -316,12 +355,10 @@ body {
 }
 
 .footer-menu-item li {
-	margin-bottom: 30px;
+	margin-bottom: 26px;
 }
-.footer-menu-item h3 {
-	color: #ffffff;
-	margin-bottom: 35px;
-}
+
 .footer-menu-item a {
 	text-decoration: none;
 	color: #bcb3f2;
+}
