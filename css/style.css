@@ -51,6 +51,13 @@ body {
 	font-weight: bold;
 	font-size: 18px;
 }
+.main-nav a:hover{
+	text-decoration: underline;
+}
+.main-nav a:active{
+	text-decoration: none;
+	opacity: 0.3;
+}
 .main-header img {
 	position: absolute;
 }
@@ -102,6 +109,15 @@ body {
 .btn-purple {
 	width: 320px;
 	/*  */
+}
+.btn:hover {
+	background-color: #32286c;
+}
+.btn:active {
+	background-color: #32286c;
+}
+.btn:active span {
+	opacity: 0.3;
 }
 .advantages {
 	background-color: #efefef;
@@ -223,12 +239,15 @@ body {
 	/* margin-bottom: 50px; */
 
 }
+.feedback-table td {
+	/* border: 1px solid black; */
+	padding-bottom: 15px;
+	padding-left: 0;
+	vertical-align: top;
+}
 .feedback-instruction {
 	float: right;
 	width: 320px;
-	/* min-height: 300px; */
-	/* padding-top: 10px; */
-	/* border: 1px solid black; */
 }
 .feedback-instruction h3 {
 	font-size: 22px;
@@ -256,14 +275,16 @@ body {
 	content: "";
 }
 .feedback-field-name {
-	width: 100px;
-	/* font-weight: bold; */
+	width: 90px;
+	font-weight: bold;
 	text-align: right;
 	padding-right: 10px;
+	padding-top: 20px;
 	
 }
 .feedback-field {
-	min-height: 60px;
+	/* min-height: 60px; */
+	width: 510px;
 }
 .feedback-table input[type="text"],
 .feedback-table textarea
@@ -275,34 +296,37 @@ body {
   font-size: inherit; 
   line-height: inherit; 
   margin: 0; 
-  box-sizing: border-box;
+  width: 100%;
+  padding: 15px 25px;
+  border: 2px solid #a7a7a7;
+}
+.feedback-table input[type="text"]::-webkit-input-placeholder,
+.feedback-table textarea::-webkit-input-placeholder {
+	/* color: #404040; */
+}
+.feedback-table textarea{
+	padding-bottom: 40px;
+}
+.feedback-table input[type="text"]:hover{
+	border: 2px solid #7f7f7f;
+}
+.feedback-table input[type="text"]:focus{
+	border: 2px solid #6451d5;
 }
 input[type="radio"]{
-	margin-right: 24px;
-	margin-left: 15px;
+	margin: 20px 20px;
 }
 .radiobutton {
 	 margin-right: 60px;
 	}
-#username {
-	display: block;
-	width: 510px;
-	color: #404040;
-	padding: 20px 25px;
-	margin-bottom: 25px;
-	margin-top: 25px;
+.feedback-table input[type="submit"]{
+	width: 100%;
+	font-size: 20px;
+	border: none;
 }
-#comment{
-	display: block;
-	width: 510px;
-	color: #404040;
-	padding: 20px 25px 45px 25px;
-	margin-bottom: 30px;
-	margin-top: 25px;
-}
-.btn-feedback-submit{
-	width: 510px;
-	font-size: 16px;
+.feedback-table input[type="submit"]:active {
+	background-color: #32286c;
+	color: #6f6898;
 }
 .main-footer {
 	background-color: #2a2546;
