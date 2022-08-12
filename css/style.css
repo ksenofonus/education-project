@@ -221,7 +221,7 @@ body {
 }
 .feedback {
 	background-color: #efefef;
-	padding-bottom: 55px;
+	padding-bottom: 54px;
 	padding-top: 50px;
 }
 .feedback-title {
@@ -265,6 +265,7 @@ body {
 }
 .feedback-instruction .strong-instruction {
 	margin-top: 40px;
+	margin-bottom: 0;
 }
 .feedback-instruction strong {
 	color: black;
@@ -275,11 +276,11 @@ body {
 	content: "";
 }
 .feedback-field-name {
-	width: 90px;
-	font-weight: bold;
+	width: 92px;
+	/* font-weight: bolder; */
 	text-align: right;
 	padding-right: 10px;
-	padding-top: 20px;
+	padding-top: 13px;
 	
 }
 .feedback-field {
@@ -305,7 +306,7 @@ body {
 	/* color: #404040; */
 }
 .feedback-table textarea{
-	padding-bottom: 40px;
+	padding-bottom: 38px;
 }
 .feedback-table input[type="text"]:hover{
 	border: 2px solid #7f7f7f;
@@ -313,16 +314,21 @@ body {
 .feedback-table input[type="text"]:focus{
 	border: 2px solid #6451d5;
 }
-input[type="radio"]{
-	margin: 20px 20px;
+.feedback-table input[type="radio"]{
+	margin: 26px 24px 19px 21px;
+	
 }
 .radiobutton {
-	 margin-right: 60px;
+	 margin-right: 50px;
 	}
 .feedback-table input[type="submit"]{
 	width: 100%;
-	font-size: 20px;
+	font-size: 22px;
+	font-weight: normal;
 	border: none;
+	padding: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .feedback-table input[type="submit"]:active {
 	background-color: #32286c;
