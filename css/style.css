@@ -130,7 +130,7 @@ body {
 	font-size: 18px;
 	margin-bottom: 0;
 }
-.advantages .container {	
+.advantages .container::after {	
 	display: table;
 	clear: both;
 	content: "";
@@ -265,9 +265,12 @@ body {
 .feedback-field {
 	min-height: 60px;
 }
-input[type="text"],
-textarea,
-input[type="radio"]{
+.feedback-table input[type="text"],
+.feedback-table textarea
+{
+ -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: inherit; 
   font-size: inherit; 
   line-height: inherit; 
@@ -304,12 +307,13 @@ input[type="radio"]{
 .main-footer {
 	background-color: #2a2546;
 	padding-top: 65px;
-	padding-bottom: 80px;
+	padding-bottom: 75px;
 	font-family: Tahoma, sans-serif;
 }
 .footer-top {
 	/* border: 1px solid white; */
-	min-height: 240px;
+	min-height: 235px;
+	padding: 0;
 }
 .footer-address {
 	float: left;
@@ -323,7 +327,7 @@ input[type="radio"]{
 	margin-bottom: 0;
 	/* margin-bottom: 0; */
 }
-.footer-top .container {
+.footer-top .container::after {
 	display: table;
 	content: "";
 	clear: both;
